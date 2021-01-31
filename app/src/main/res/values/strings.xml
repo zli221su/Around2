@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Around</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prompt_confirm_password">confirm password</string>
+    <string name="prompt_birthday">birthday</string>
+    <string name="prompt_mobile_number">mobile number</string>
+    <string name="action_register">Register</string>
+    <string name="button_like">Like</string>
+    <string name="button_comment">Comment</string>
+    <string name="button_follow">Follow</string>
+    <string name="text_test_title">Picnic</string>
+    <string name="text_test_content">A picnic will be hold at the square!</string>
+    <string name="text_post">post</string>
+    <string name="text_chat">chat</string>
+    <string name="text_profile">profile</string>
+    <string name="text_map">map</string>
+
+
+    <!--    notification-->
+
+    <string name="notification_channel_description">This is a notification channel</string>
+
+    <!--    menu values-->
+    <string name="open_nav">open_nav</string>
+    <string name="close_nav">close_nav</string>
+
+    <string name="My_Name">Zhi Li</string>
+    <string name="My_Course">CIS 600</string>
+    <string name="my_name">Zhi Li</string>
+    <string name="my_email">zli221@syr.edu</string>
+    <string name="location_not_selected">Location Not Selected</string>
+</resources>

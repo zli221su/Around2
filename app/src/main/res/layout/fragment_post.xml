@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_margin="3sp">
+
+        <TextView
+            android:id="@+id/txtPostDetailTitle"
+            android:text="Picnic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="30sp"/>
+        <ImageView
+            android:id="@+id/imgPostDetailImage"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:layout_weight="4"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:layout_marginTop="4sp"
+            android:weightSum="5"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+                <TextView
+                    android:id="@+id/txtPostDetailAuthor"
+                    android:text="Posted by 'Jerry'"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/txtPostDetailTime"
+                    android:text="2019-12-1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cbxPostDetailLike"
+                android:text="Like"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@drawable/ic_like_check_box"
+                android:focusable="false"
+                android:gravity="center"
+                android:focusableInTouchMode="false" />
+            <CheckBox
+                android:id="@+id/cbxPostDetailFollow"
+                android:text="Follow"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@drawable/ic_star_check_box"
+                android:focusable="false"
+                android:gravity="center"
+                android:focusableInTouchMode="false" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btPostDetailLocation"
+            android:text="See Location on Map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Details for the post:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="4sp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/txtPostDetailContent"
+            android:text="The author is very lazy, he/she didn't write any content here."
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="top"
+            android:layout_weight="3"/>
+
+<!--        <LinearLayout-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content" >-->
+<!--            <Button-->
+<!--                android:id="@+id/btPostDetailJoin"-->
+<!--                android:text="Join"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_weight="1"-->
+<!--                android:gravity="center"/>-->
+<!--&lt;!&ndash;            <Button&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/btPostDetailBack"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:text="Back"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:gravity="center"/>&ndash;&gt;-->
+<!--        </LinearLayout>-->
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

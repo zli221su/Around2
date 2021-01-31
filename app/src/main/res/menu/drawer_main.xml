@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_post_map"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="Post Map View" />
+<!--        <item-->
+<!--            android:id="@+id/nav_Layout"-->
+<!--            android:icon="@drawable/ic_view_list_black_24dp"-->
+<!--            android:title="Layout Manager Example"/>-->
+        <item
+            android:id="@+id/nav_post_list"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="Post List View" />
+        <item
+            android:id="@+id/nav_post_new"
+            android:icon="@drawable/ic_add_box_black_24dp"
+            android:title="New Post" />
+        <item
+            android:id="@+id/nav_author"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Authors" />
+
+    </group>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Log out"/>
+
+
+<!--    <item android:title="Communication">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/ic_share_black_24dp"-->
+<!--                android:title="Share"/>-->
+<!--            <item-->
+<!--                android:id="@+id/nav_send"-->
+<!--                android:icon="@drawable/ic_send_black_24dp"-->
+<!--                android:title="Send"/>-->
+<!--        </menu>-->
+<!--    </item>-->
+</menu>
